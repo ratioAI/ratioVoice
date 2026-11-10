@@ -1,0 +1,2 @@
+# Optional: KI-Voice-Conversion (RVC über ONNX Runtime, NVIDIA-GPU via CUDA)
+onnxruntime-gpu>=1.17
