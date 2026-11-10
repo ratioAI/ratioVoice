@@ -92,9 +92,13 @@ Tonhöhe und Formant messbar unabhängig sind und dass sich alle Profile klangli
 - Die Profile sind nach Messwerten abgestimmt, nicht nach Gehör – Feintuning am eigenen Mikrofon lohnt sich.
 - Aufnahmen bis 10 Minuten; intern mono, 48 kHz.
 
-## Lizenzen der Bibliotheken
+## Lizenz
 
-pedalboard (GPLv3), PySide6 (LGPL), pyworld/WORLD (MIT/BSD), sounddevice, soundfile, NumPy, SciPy (BSD/MIT).
-Für die private Nutzung unproblematisch; bei einer Weitergabe des Programms gilt wegen pedalboard die GPLv3.
+RatioVoice steht unter der **GNU General Public License v3.0** (siehe [LICENSE](LICENSE)).
+Du darfst das Programm frei nutzen, verändern und weitergeben, solange Weitergaben ebenfalls unter der GPLv3
+bleiben und den Quellcode einschließen.
+
+Verwendete Bibliotheken: pedalboard (GPLv3 – der Grund für die Lizenzwahl), PySide6 (LGPL),
+pyworld/WORLD (MIT/BSD), sounddevice, soundfile, NumPy, SciPy (BSD/MIT).
 
 Technischer Aufbau und Begründung der Technologie-Wahl: [docs/ARCHITEKTUR.md](docs/ARCHITEKTUR.md)
